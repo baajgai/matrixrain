@@ -1,0 +1,12 @@
+[package]
+name = "matrixrain"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.98"
+crossterm = "0.29.0"
+hex_color = "3.0.0"
+palette = "0.7.6"
+rand = "0.9.1"
+rand_xoshiro = "0.7.0"
