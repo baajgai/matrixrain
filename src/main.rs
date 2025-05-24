@@ -120,8 +120,8 @@ impl Column {
         let base_color2 = HexColor::rgb(0, 255, 43);
         let chosen = choose_random(base_color, base_color2);
 
-        /// just put a single color here instead of randoming between blue and green :)
-        ///
+        // just put a single color here instead of randoming between blue and green :)
+
         self.glyphs[self.active_index] = Glyph::new_random(rand, chosen);
         self.active_index += 1;
         if self.active_index >= self.height as usize {
